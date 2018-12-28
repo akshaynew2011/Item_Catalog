@@ -1,6 +1,6 @@
 # Item Catalog
 
-This is the fourth project of the [Full Stack Web Developer Nanodegree](https://in.udacity.com/course/full-stack-web-developer-nanodegree--nd004/?). 
+This is the fourth side project of the Software Development
 
 The objective of the Item Catalog is to build a website with Flask, SQLAlchemy, third party OAuths and API endpoints.
 
@@ -51,22 +51,6 @@ cd /vagrant/catalog
 # Run the program
 python catalog.py
 ```
-
-## Project Rubric
-
-|SECTION|SUB-SECTION|CRITERIA|SPECS. MET?|
-|---|---|---|---|
-| API Endpoints |  | The project implements a JSON endpoint that serves the same information as displayed in the HTML endpoints for an arbitrary item in the catalog.|Yes|
-| CRUD | Read | Does the website read category and item information from a database?|Yes|
-| | Create | Does the website include a form allowing users to add new items and correctly processes these forms? |Yes|
-| | Update | Does the website include a form to update a record in the database and correctly processes this form? |Yes|
-| | Delete | Does the website include a way to delete an item from the catalog? | Yes |
-| Authentication & Authorization | Consider Authorization Status prior to Execution | Create, delete and update operations do consider authorization status prior to execution. | Yes |
-| | Implement third party authenthication and authorization service | Page implements a third-party authentication & authorization service (like `Google Accounts` or `Mozilla Persona`) instead of implementing its own authentication & authorization spec. | Yes |
-| | Show Login and Logout button | Make sure there is a 'Login' and 'Logout' button/link in the project. The aesthetics of this button/link is up to the discretion of the student. | Yes |
-| Code Quality | | Code is ready for personal review and neatly formatted and compliant with the Python [PEP 8](https://www.python.org/dev/peps/pep-0008/) style guide. | Yes |
-| Comments | | Are comments present and effectively explain longer code procedures? | Yes |
-
 
 
 
